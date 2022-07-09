@@ -1,0 +1,123 @@
+#contgeral
+{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 600px;
+  height: 1200px;
+  background-color: rgb(173, 231, 184);
+  border-left: 100px;
+  border-width: 5px;
+  box-shadow: 0 0 1em green;
+}
+
+#contgerallogin
+{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(173, 231, 184);
+  border-left: 100px;
+  border-width: 5px;
+  box-shadow: 0 0 1em green;
+}
+
+#fintech
+{
+  margin-left: 200px;
+  width: 180px;
+  border-width: 20px;
+  border-radius: 15px;
+  
+}
+
+h5
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: green;
+  
+}
+
+p1
+{
+  margin-left: 90px;
+  margin-right: 80px;
+  color: rgb(138, 133, 133);
+  font-style: italic;
+  font-size: 17pt;
+}
+
+#botaofacebook, #botaogoogle
+{
+  color: green;
+  background-color: white;
+  border-color: green;
+  margin-left: 90px;
+  width: 390px;
+  
+}
+
+p2
+{
+  margin-left: 230px;
+}
+
+#nome, #email, #celular, #cpf, #senha, #repsenha
+{
+  font-weight: bold;
+  
+}
+
+#textos
+{
+  
+  margin-left: 90px;
+  margin-right: 50px;
+  font-family: helvetica; 
+}
+
+#campo1, #campo2, #campo3, #campo4, #campo5, #campo6
+{
+  width: 420px;
+}
+
+#botaocadastrar
+{
+  background-color: rgb(34, 238, 96);
+  border-color: rgb(21, 110, 48);
+  margin-left: 50px;
+  color: green;
+  width: 300px;
+  height: 50px;
+}
+
+#botaofazerlogin
+{
+  background-color: rgb(34, 238, 96);
+  border-color: rgb(21, 110, 48);
+  margin-left: 140px;
+  color: green;
+  width: 300px;
+  height: 50px;
+}
+
+#botaoentrarlogin
+{
+  background-color: rgb(34, 238, 96);
+  border-color: rgb(21, 110, 48);
+  margin-left: 50px;
+  color: green;
+  width: 300px;
+  height: 50px;
+}
+
+#botcadlogin
+{
+  background-color: rgb(249, 252, 250);
+  border-color: rgb(116, 194, 116);
+  margin-left: 140px;
+  color: rgb(116, 194, 116);
+  width: 300px;
+  height: 50px;
+}

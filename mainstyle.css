@@ -1,0 +1,140 @@
+:root {
+    --spacing: 28px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: var(--spacing);
+
+}
+
+header>div {
+    margin-right: var(--spacing);
+    background-color: rgb(169, 236, 169);
+    padding: calc(var(--spacing) / 2);
+    border-radius: 15%;
+
+    
+}
+
+header .logo {
+    background-image: url("./fintech.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 250px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#botaodetalhe{
+    height: 60px;
+    width: 200px;
+    background-color: lightgreen;
+    border-color: white;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#botaoplanejar{
+    height: 60px;
+    width: 200px;
+    background-color: white;;
+    border-color: lightgreen;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+#botaoextrato{
+    height: 60px;
+    width: 200px;
+    background-color: lightgreen;
+    border-color: white;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#botaotransacao{
+    height: 60px;
+    width: 200px;
+    background-color: white;;
+    border-color: lightgreen;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+#botaodefmetas{
+    height: 60px;
+    width: 200px;
+    background-color: lightgreen;
+    border-color: white;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+section.filter {
+    margin: var(--spacing) 0;
+
+}
+section.filter ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+section.filter ul li {
+    margin: 0 calc(var(--spacing) / 2);
+    position: right;
+}
+
+article {}
+
+article>div:nth-child(1) {
+    position: relative;
+    min-height: 300px;
+    background-color: rgb(173, 231, 184);
+    background-position: center;
+    margin-bottom: var(--spacing);
+    box-shadow: 0 0 1em green;
+}
+article>div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: calc(var(--spacing) / 2);
+}
+
+article .author-profile {
+    grid-row: span 2;
+    
+}
+
+article h1 {
+    color: green;
+    font-size: 25pt;
+    font-weight: bold;
+    position: absolute;
+    left: var(--spacing);
+    right: var(--spacing);
+    bottom: var(--spacing);
+}
+
+footer {
+    background-color: rgb(106, 167, 114);
+    margin-top: var(--spacing);
+    padding: var(--spacing);
+
+}
+
+footer div {
+    text-align: center;
+    
+}
